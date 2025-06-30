@@ -8,7 +8,7 @@ const tempDir = path.join(
     "gh-pages-" + Math.random().toString(36).substring(7)
 );
 const buildDir = path.join(__dirname, "dist");
-const repoUrl = "https://github.com/willvn2021/f8-zoom-module-1.git";
+const repoUrl = "https://github.com/anhMinhDepTraiQua/f8-multiple-page.git";
 
 async function deploy() {
     try {

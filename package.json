@@ -5,9 +5,11 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "sass": "^1.89.2",
     "vite": "^7.0.0",
     "vite-plugin-ejs": "^1.7.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

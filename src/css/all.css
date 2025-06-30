@@ -1,0 +1,86 @@
+body {
+    /* CSS chung cho toàn bộ trang */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header-custom {
+    /* CSS chỉ áp dụng cho header */
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-custom h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-custom nav {
+    margin-top: 10px;
+}
+
+.header-custom nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-custom nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.header-custom nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-custom {
+    /* CSS chỉ áp dụng cho footer */
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-custom p {
+    margin: 0;
+}
+
+.footer-custom a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.sidebar-custom {
+    /* CSS chỉ áp dụng cho sidebar */
+    background: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    float: left;
+}
+
+.sidebar-custom h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.sidebar-custom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-custom ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-custom ul li a {
+    color: #333;
+    text-decoration: none;
+}
